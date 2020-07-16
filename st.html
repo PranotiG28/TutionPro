@@ -1,0 +1,56 @@
+<html>
+<head>
+
+<style>
+body{font-family:Arial,Helvetica,sans-serif;
+background-color:skyblue;
+color:red;
+font:Helvetica;
+height:300px;
+width:200px;
+}
+form{border:3px solid#f1f1f1;}
+input[type=text],
+input[type=password]
+{width:50%;
+padding:12px 20px;
+margin:8px 0;
+display:inline-block;
+border:1px solid #ccc;
+box-sizing:border-box;
+14:33 12-06-2018}
+.container
+{padding-top:40px;
+padding-left:30px;
+margin:150px 180px;background-color:rgba(0,0,0,0.2);
+height:300px;
+width:300px;
+}
+button{
+color:white;
+padding:12px 20px;
+margin:0px 80px;
+border:none;
+cursor:pointer;
+width:40%;
+}
+button[name=lo]{background-color:#4caf50;}
+button[name=re]{background-color:red;}
+</style>
+</head>
+<body>
+
+<div class="container">
+<h2>Student login </h2>
+<label for="uname">
+<b>Username</b></label>
+<input type="text" placeholder="Enter Username" name="uname" required><br>
+<label for="psw">
+<b>Password</b></label>
+<input type="password" placeholder="Enter Password" name="psw" required><br>
+<button type="submit" name=lo>Login</button>
+<br>Yet not registered
+<button type="submit" name=re>REGISTER</button>
+</div>
+</body>
+</html>
